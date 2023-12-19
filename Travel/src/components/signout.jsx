@@ -5,13 +5,13 @@ function SignOutButton() {
   const { signOut } = useAuth();
 
   return (
-    <button
-      type="button"
-      onClick={signOut}
-      className="fixed top-8 right-8 flex items-center justify-center rounded-lg bg-red-500 px-4 py-2 text-sm font-medium text-white hover:bg-red-600"
-    >
-      Sign Out
-    </button>
+  <button
+    type="button"
+    className="rounded-md bg-black px-3 py-2 text-sm font-semibold text-white shadow-sm hover:bg-black/80 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-black"
+    onClick={signOut}
+  >
+    Sign Out
+  </button>
   );
 }
 

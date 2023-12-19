@@ -21,7 +21,11 @@ const router = createBrowserRouter([
   },
   {
     path: "/detail/:placeId",
-    element: <Details />,
+    element: (
+      <AuthGuard>
+        <Details />
+      </AuthGuard> 
+    ),
   },
   {
     path: "/signin",

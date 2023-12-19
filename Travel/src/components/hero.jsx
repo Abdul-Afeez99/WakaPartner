@@ -16,11 +16,10 @@ export const Hero = ({ placeId, setPlaceId }) => {
         <div className="mx-auto max-w-2xl  text-center">
           <h2 className="mt-8 text-3xl font-bold leading-tight text-black sm:text-4xl lg:mt-12 lg:text-5xl">
             Join <span className="border-b-8 border-yellow-300">5,482</span>{" "}
-            other developers
+            other Travelers
           </h2>
           <p className="mx-auto mt-6 max-w-xl text-base text-gray-600 md:mt-10 lg:text-xl">
-            Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet
-            sint. Velit officia consequat duis.
+            Plan your next trip with WakaPartner.
           </p>
 
           <form action="#" method="POST" className="mx-auto mt-12 max-w-xl">
